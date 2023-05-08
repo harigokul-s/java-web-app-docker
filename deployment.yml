@@ -1,4 +1,4 @@
-apiVersion: networking.k8s.io/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: javawebapp-ENVIRONMENT-BUILD_NUMBER
@@ -15,4 +15,4 @@ spec:
         image: IMAGE
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 8080
+        - containerPort: 8888
