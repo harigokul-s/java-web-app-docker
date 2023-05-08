@@ -11,7 +11,7 @@ spec:
         version: "BUILD_NUMBER"
     spec:
       containers:
-      - name: javawebapp-ENVIRONMENT-BUILD_NUMBER
+      - name: ivak/myimage:latest
         image: IMAGE
         imagePullPolicy: IfNotPresent
         ports:
